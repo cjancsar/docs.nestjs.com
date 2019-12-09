@@ -1,6 +1,6 @@
 ### Hot Reload (Webpack)
 
-The highest impact on your application's bootstrapping process has a **TypeScript compilation**. But the question is, do we have to recompile a whole project each time when change occurs? Not at all. That's why [webpack](https://github.com/webpack/webpack) HMR (Hot-Module Replacement) significantly decreases an amount of time necessary to instantiate your application.
+The highest impact on your application's bootstrapping process is **TypeScript compilation**. But the question is, do we have to recompile a whole project each time when change occurs? Not at all. That's why [webpack](https://github.com/webpack/webpack) HMR (Hot-Module Replacement) significantly decreases an amount of time necessary to instantiate your application.
 
 > warning **Warning** Note that `webpack` won't automatically copy your assets (e.g. `graphql` files) to the `dist` folder. Similary, `webpack` is not compatible with glob static paths (e.g. `entities` property in `TypeOrmModule`).
 
